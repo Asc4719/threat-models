@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "1cd9d9f0-2ed5-4017-b63b-0182b16151b7",
             "zIndex": -1,
+            "id": "1cd9d9f0-2ed5-4017-b63b-0182b16151b7",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Интернет ",
@@ -69,8 +69,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "b2631171-fbb1-4dcd-9817-9bfa34661090",
             "zIndex": -1,
+            "id": "b2631171-fbb1-4dcd-9817-9bfa34661090",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "API / зона данных",
@@ -110,6 +110,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -193,7 +194,6 @@
               ]
             },
             "id": "726db8c6-51bf-42b2-b690-122f3b74b858",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Backend API",
@@ -265,6 +265,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -348,7 +349,6 @@
               ]
             },
             "id": "f5e503f8-d4b0-4cf6-8979-0b9c6a9a1dc5",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Пользователь",
@@ -387,6 +387,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -470,7 +471,6 @@
               ]
             },
             "id": "78e23ab4-41bd-4eaf-910c-2c7f300a04a5",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Redis\n",
@@ -533,6 +533,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -616,7 +617,6 @@
               ]
             },
             "id": "7d974dab-c74b-4444-a427-de1380d6d218",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "PostgreSQL",
